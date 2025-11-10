@@ -1,0 +1,31 @@
+{
+  "name": "supabase-pause-prevention",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "test:keep-alive": "tsx scripts/test-keep-alive.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.19.24",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "dotenv": "^17.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
