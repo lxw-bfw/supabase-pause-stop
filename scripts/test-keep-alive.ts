@@ -5,8 +5,9 @@ import {
   determineAction,
   generateRandomString,
 } from "../app/api/keep-alive/helper";
+
 /**
- * 创建测试脚本文件
+ * 创建测试脚本文件 testKeepAlive
  */
 
 async function testKeepAlive() {

@@ -16,7 +16,7 @@ export const keepAliveConfig = {
   allowInsertionAndDeletion: true, // Set this to false unless you're using a 'keep-alive'-dedicated table
   // 如果allowInsertionAndDeletion设置为true，那么就需要设置disableRandomStringQuery为true，防止查询随机字符串
   disableRandomStringQuery: true, // Set this to true if allowInsertionAndDeletion is true. Otherwise, no db actions taken
-  sizeBeforeDeletions: 10, // Max size of table before any deletions start (if allowInsertionAndDeletion is true)
+  sizeBeforeDeletions: 50, // Max size of table before any deletions start (if allowInsertionAndDeletion is true)
 
   consoleLogOnError: true, // Whether to log errors to console
 
